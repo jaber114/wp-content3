@@ -1,0 +1,2 @@
+2022-07-27T09:13:07+00:00 CRITICAL Cannot redeclare quadlayers_custom_add_to_cart_message() (previously declared in C:\Users\Admin\Local Sites\jab\app\public\wp-content\themes\storefront\functions.php:57) in C:\Users\Admin\Local Sites\jab\app\public\wp-content\themes\storefront\functions.php on line 73
+

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Storefront WooCommerce Adjacent Products Class
  *

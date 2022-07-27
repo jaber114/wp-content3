@@ -54,6 +54,12 @@ if ( is_admin() ) {
 	require 'inc/admin/class-storefront-plugin-install.php';
 }
 
+add_filter( 'wc_add_to_cart_message_html', 'quadlayers_custom_add_to_cart_message' );
+function quadlayers_custom_add_to_cart_message() {
+   $message = 'Your product has been added to cart. Thank you for shopping with us!' ;
+   return $message;
+}
+
 /**
  * NUX
  * Only load if wp version is 4.7.3 or above because of this issue;
